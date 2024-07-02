@@ -2,7 +2,7 @@
 import React from "react";
 import { TypeAnimation } from "react-type-animation";
 
-const SectionPlace = () => {
+const HomeSection = () => {
     return (
         <section>
             <p className="font-Questrial text-[#14274E] lg:text-lg  font-thin">Hi, I'm</p>
@@ -17,12 +17,10 @@ const SectionPlace = () => {
              ]}
             wrapper="span"
             speed={50}
-          
-            repeat={Infinity}
-            />
+            repeat={Infinity} />
             </p>
         </section>
     )
 }
 
-export default SectionPlace;
+export default HomeSection;
