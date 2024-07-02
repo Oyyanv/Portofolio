@@ -1,3 +1,5 @@
+const { Bebas_Neue, Comfortaa, Questrial } = require('next/font/google');
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
@@ -13,6 +15,11 @@ module.exports = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
     },
+    fontFamily: {
+      Bebas_Neue: ["Bebas Neue", "sans-serif"],
+      Comfortaa: ["Comfortaa", "sans-serif"],
+      Questrial: ["Questrial", "sans-serif"],
+    }
   },
   plugins: [],
 };
