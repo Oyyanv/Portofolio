@@ -10,9 +10,9 @@ const SectionPlace = () => {
             <p className="font-Questrial text-5xl font-semibold"><span>A </span>  
             <TypeAnimation
             sequence={[
-            'Web Developer 💻',
+            'Web Developer',
             400,
-            'Mobile Developer 📱',
+            'Mobile Developer',
             400,
              ]}
             wrapper="span"
