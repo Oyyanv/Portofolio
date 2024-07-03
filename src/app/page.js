@@ -1,6 +1,7 @@
 import AboutSection from "./component/about";
 import HomeSection from "./component/home";
 import Navbar from "./component/navbar";
+import SkillSection from "./component/skill";
 
 
 export default function Home() {
@@ -10,9 +11,13 @@ export default function Home() {
      <div class="container mx-auto px-12 py-4 flex justify-center items-center h-screen" id="home">
         <HomeSection />
      </div>
-     <div className="px-12 py-4 bg-[#9BA4B4] h-screen flex justify-center items-center">
+     <div className="px-12 py-4 bg-[#394867] h-screen flex justify-center items-center">
       <AboutSection />
      </div>
+     <div className="px-12 py-4 bg-[#9BA4B4] h-screen flex justify-center items-center">
+      <SkillSection />
+     </div>
+    
     </main>
   );
 }
