@@ -3,27 +3,25 @@ import React from 'react';
 export const AboutSection = () => {
   return (
     <section id="about" className="relative min-h-screen justify-center flex items-center">
-      <div className="grid md:grid-cols-2 gap-4 items-center relative z-10">
+      <div className="grid md:grid-cols-2 items-center relative z-10">
         <div className="flex justify-center">
           <img 
             src="/images/bg.png" 
             width={250} 
-            height={250} 
-            className="rounded-full lg:w-[45%] w-48 lg:h-96 h-72 mb-1 ml-2 bg-[#F1F6F9]"
+            height={300} 
+            className="h-72 w-60 mb-12 xl:h-[60%] xl:w-[45%]  xl:ml-10"
             alt="Profile Image"
           />
+            {/* <div className="absolute bottom-0 left-20 right-0 h-16 bg-gradient-to-t from-[#212121] via-transparent to-transparent backdrop-blur-sm z-0"></div> */}
         </div>
         <div className="relative">
-          <div className="absolute inset-0 bg-[#c9c9c9] px-10 py-10 rounded-lg blur-xl"></div>
-          <div className="relative bg-[#45474B] h-fit px-6 rounded-lg py-5 pb-8">
-            <h2 className="font-Questrial text-[#F1F6F9] lg:text-4xl text-4xl underline font-semibold mb-4">
-              About
-            </h2>
-            <p className="font-Questrial text-[#F4F4F2] lg:text-lg lg:text-justify">
-              Hi!, I'm Muhammad Royyan, you can call me Oyyan, I'm 17 years old, I'm a student at SMK TELKOM BANJARBARU. 
-              My hobbies are coding, watching anime, films, playing games and I like Vestia Zeta from HololiveID gen 3.
-            </p>
-          </div>
+          <h2 className="font-Questrial text-[#F1F6F9] lg:text-4xl text-4xl underline font-semibold mb-4">
+            ABOUT
+          </h2>
+          <p className="font-Questrial text-[#F4F4F2] lg:text-lg lg:text-justify">
+            Hi!, I'm Muhammad Royyan, you can call me Oyyan, I'm 17 years old, I'm a student at SMK TELKOM BANJARBARU. 
+            My hobbies are coding, watching anime, films, playing games and I like Vestia Zeta from HololiveID gen 3.
+          </p>
         </div>
       </div>
     </section>

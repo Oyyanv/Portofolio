@@ -25,7 +25,7 @@ const Navbar = () => {
                Skill
             </li>
          </Link>
-         <Link to="#home" smooth className="hover:text-[#F1F6F9]">
+         <Link to="#Project" smooth className="hover:text-[#F1F6F9]">
             <li>
                Project
             </li>
