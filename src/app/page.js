@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <main className="bg-[#212121] flex min-h-screen flex-col">
      <Navbar />
-     <div class="container mx-auto px-12 py-4 flex justify-center items-center h-screen" id="home">
+     <div className="container mx-auto px-12 py-4 flex justify-center items-center h-screen" id="home">
         <HomeSection />
      </div>
      <div className="px-12 py-4 bg-[#212121] h-screen flex justify-center items-center">
