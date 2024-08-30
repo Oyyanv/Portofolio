@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 export const SkillSection = () => {
   return (
@@ -12,7 +13,7 @@ export const SkillSection = () => {
       <div className="grid bg-[#F9F9F9] md:grid-cols-11 md:gap-12 grid-cols-3 gap-5 items-center px-7 pt-8 pb-2 rounded-md text-center">
         {/* Logo HTML */}
         <div className="group transform hover:scale-110 transition-transform duration-300">
-          <img 
+          <Image 
             src="/images/htmllogo.png" 
             width={80} 
             height={80} 
@@ -25,7 +26,7 @@ export const SkillSection = () => {
 
         {/* Logo CSS */}
         <div className="group transform hover:scale-110 transition-transform duration-300">
-          <img 
+          <Image 
             src="/images/csslogo.png" 
             width={80} 
             height={80} 
@@ -38,7 +39,7 @@ export const SkillSection = () => {
 
         {/* Logo JavaScript */}
         <div className="group transform hover:scale-110 transition-transform duration-300">
-          <img 
+          <Image 
             src="/images/jslogo.png" 
             width={80} 
             height={80} 
@@ -51,7 +52,7 @@ export const SkillSection = () => {
 
         {/* Logo Tailwind */}
         <div className="group transform hover:scale-110 transition-transform duration-300">
-          <img 
+          <Image 
             src="/images/tailwindlogo.png" 
             width={80} 
             height={80} 
@@ -64,7 +65,7 @@ export const SkillSection = () => {
 
         {/* Logo React */}
         <div className="group transform hover:scale-110 transition-transform duration-300">
-          <img 
+          <Image 
             src="/images/reactlogo.png" 
             width={80} 
             height={80} 
@@ -77,7 +78,7 @@ export const SkillSection = () => {
 
         {/* Logo PHP */}
         <div className="group transform hover:scale-110 transition-transform duration-300">
-          <img 
+          <Image 
             src="/images/phplogo.png" 
             width={80} 
             height={80} 
@@ -90,7 +91,7 @@ export const SkillSection = () => {
 
         {/* Logo Laravel */}
         <div className="group transform hover:scale-110 transition-transform duration-300">
-          <img 
+          <Image 
             src="/images/laravellogo.png" 
             width={80} 
             height={80} 
@@ -103,7 +104,7 @@ export const SkillSection = () => {
 
         {/* Logo Dart */}
         <div className="group transform hover:scale-110 transition-transform duration-300">
-          <img 
+          <Image 
             src="/images/dartlogo.png" 
             width={80} 
             height={80} 
@@ -116,7 +117,7 @@ export const SkillSection = () => {
 
         {/* Logo Flutter */}
         <div className="group transform hover:scale-110 transition-transform duration-300">
-          <img 
+          <Image 
             src="/images/flutterlogo.png" 
             width={80} 
             height={80} 
@@ -129,7 +130,7 @@ export const SkillSection = () => {
 
         {/* Logo Git */}
         <div className="group transform hover:scale-110 transition-transform duration-300">
-          <img 
+          <Image 
             src="/images/gitlogo.png" 
             width={80} 
             height={80} 
@@ -142,7 +143,7 @@ export const SkillSection = () => {
 
         {/* Logo GitHub */}
         <div className="group transform hover:scale-110 transition-transform duration-300">
-          <img 
+          <Image 
             src="/images/githublogo.png" 
             width={80} 
             height={80} 
