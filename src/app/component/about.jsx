@@ -1,11 +1,12 @@
 import React from 'react';
+import Image from 'next/image';
 
 export const AboutSection = () => {
   return (
     <section id="about" className="relative min-h-screen justify-center flex items-center">
       <div className="grid md:grid-cols-2 items-center relative z-10">
         <div className="flex justify-center">
-          <img 
+          <Image 
             src="/images/bg.png" 
             width={250} 
             height={300} 
@@ -19,7 +20,7 @@ export const AboutSection = () => {
             ABOUT
           </h2>
           <p className="font-Questrial text-[#F4F4F2] lg:text-lg lg:text-justify">
-            Hi!, I'm Muhammad Royyan, you can call me Oyyan, I'm 17 years old, I'm a student at SMK TELKOM BANJARBARU. 
+            Hi!, I&apos;m Muhammad Royyan, you can call me Oyyan, I&apos;m 17 years old, I&apos;m a student at SMK TELKOM BANJARBARU. 
             My hobbies are coding, watching anime, films, playing games and I like Vestia Zeta from HololiveID gen 3.
           </p>
         </div>
