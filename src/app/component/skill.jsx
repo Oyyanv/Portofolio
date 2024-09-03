@@ -17,7 +17,9 @@ export const SkillSection = () => {
             src="/images/htmllogo.png" 
             width={80} 
             height={80} 
-            alt="HTML" 
+            alt="HTML"
+            data-aos="fade-up"
+            data-aos-duration="2000"
           />
           <p className="mt-2 text-sm font-Questrial opacity-0 group-hover:opacity-100 transition-opacity duration-300">
             HTML
@@ -31,6 +33,8 @@ export const SkillSection = () => {
             width={80} 
             height={80} 
             alt="CSS" 
+            data-aos="fade-up"
+            data-aos-duration="1900"
           />
           <p className="mt-2 text-sm font-Questrial opacity-0 group-hover:opacity-100 transition-opacity duration-300">
             CSS
@@ -44,6 +48,8 @@ export const SkillSection = () => {
             width={80} 
             height={80} 
             alt="JavaScript" 
+            data-aos="fade-up"
+            data-aos-duration="1800"
           />
           <p className="mt-2 text-sm font-Questrial opacity-0 group-hover:opacity-100 transition-opacity duration-300">
             JavaScript
@@ -57,6 +63,8 @@ export const SkillSection = () => {
             width={80} 
             height={80} 
             alt="Tailwind" 
+            data-aos="fade-up"
+            data-aos-duration="1700"
           />
           <p className="mt-2 text-sm font-Questrial opacity-0 group-hover:opacity-100 transition-opacity duration-300">
             Tailwind
@@ -70,6 +78,8 @@ export const SkillSection = () => {
             width={80} 
             height={80} 
             alt="React" 
+            data-aos="fade-up"
+            data-aos-duration="1600"
           />
           <p className="mt-2 text-sm font-Questrial opacity-0 group-hover:opacity-100 transition-opacity duration-300">
             React
@@ -83,6 +93,8 @@ export const SkillSection = () => {
             width={80} 
             height={80} 
             alt="PHP" 
+            data-aos="fade-up"
+            data-aos-duration="1500"
           />
           <p className="mt-2 text-sm font-Questrial opacity-0 group-hover:opacity-100 transition-opacity duration-300">
             PHP
@@ -96,6 +108,8 @@ export const SkillSection = () => {
             width={80} 
             height={80} 
             alt="Laravel" 
+            data-aos="fade-up"
+            data-aos-duration="1400"
           />
           <p className="mt-2 text-sm font-Questrial opacity-0 group-hover:opacity-100 transition-opacity duration-300">
             Laravel
@@ -109,6 +123,8 @@ export const SkillSection = () => {
             width={80} 
             height={80} 
             alt="Dart" 
+            data-aos="fade-up"
+            data-aos-duration="1300"
           />
           <p className="mt-2 text-sm font-Questrial opacity-0 group-hover:opacity-100 transition-opacity duration-300">
             Dart
@@ -122,6 +138,8 @@ export const SkillSection = () => {
             width={80} 
             height={80} 
             alt="Flutter" 
+            data-aos="fade-up"
+            data-aos-duration="1200"
           />
           <p className="mt-2 text-sm font-Questrial opacity-0 group-hover:opacity-100 transition-opacity duration-300">
             Flutter
@@ -135,6 +153,8 @@ export const SkillSection = () => {
             width={80} 
             height={80} 
             alt="Git" 
+            data-aos="fade-up"
+            data-aos-duration="1100"
           />
           <p className="mt-2 text-sm font-Questrial opacity-0 group-hover:opacity-100 transition-opacity duration-300">
             Git
@@ -148,6 +168,8 @@ export const SkillSection = () => {
             width={80} 
             height={80} 
             alt="GitHub" 
+            data-aos="fade-up"
+            data-aos-duration="1000"
           />
           <p className="mt-2 text-sm font-Questrial opacity-0 group-hover:opacity-100 transition-opacity duration-300">
             GitHub

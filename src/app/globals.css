@@ -9,4 +9,7 @@
 html {
     scroll-behavior: smooth;
   }
-  
+
+.ganteng{
+  filter: drop-shadow(10px 7px 10px #F9F9F9)
+}
