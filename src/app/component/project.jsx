@@ -6,7 +6,7 @@ export const ProjectSection = () => {
             <div className="md:mb-10 mb-3 text-4xl text-[#F9F9F9] font-Questrial underline font-semibold justify-center flex">
         MY PROJECTS
       </div>
-            <div className="flex flex-nowrap justify-start xl:justify-center gap-6 p-10 w-screen overflow-scroll">
+            <div className="flex flex-nowrap justify-start xl:justify-center gap-6 p-10 w-screen overflow-scroll xl:overflow-x-auto">
      {/* Card Component 1*/}
         <div class="relative flex flex-col mt-12 text-gray-700 bg-white shadow-md bg-clip-border rounded-xl w-52 xl:w-52">
             <div
@@ -17,7 +17,7 @@ export const ProjectSection = () => {
             </div>
             <div class="p-6">
                 <h5 class="block font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
-                    UI/UX Review Check
+                    Kessaku Project
                 </h5>
                 <p class="block font-sans text-base antialiased font-light leading-relaxed text-inherit">
                     Ecommerce Website
@@ -41,10 +41,10 @@ export const ProjectSection = () => {
             </div>
             <div class="p-6">
                 <h5 class="block font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
-                    UI/UX Review Check
+                    Profile Pky
                 </h5>
                 <p class="block font-sans text-base antialiased font-light leading-relaxed text-inherit">
-                    Ecommerce Website
+                    Semantic Website
                 </p>
             </div>
             <div class="p-6 pt-0">
@@ -65,10 +65,10 @@ export const ProjectSection = () => {
             </div>
             <div class="p-6">
                 <h5 class="block font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
-                    UI/UX Review Check
+                    Knowlege App
                 </h5>
                 <p class="block font-sans text-base antialiased font-light leading-relaxed text-inherit">
-                    Ecommerce Website
+                    Education App
                 </p>
             </div>
             <div class="p-6 pt-0">
@@ -89,7 +89,7 @@ export const ProjectSection = () => {
             </div>
             <div class="p-6">
                 <h5 class="block font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
-                    UI/UX Review Check
+                    Test
                 </h5>
                 <p class="block font-sans text-base antialiased font-light leading-relaxed text-inherit">
                     Ecommerce Website
