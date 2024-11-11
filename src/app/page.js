@@ -1,4 +1,5 @@
 import AboutSection from "./component/about";
+import ContactSection from "./component/contact";
 import HomeSection from "./component/home";
 import Navbar from "./component/navbar";
 import ProjectSection from "./component/project";
@@ -20,6 +21,9 @@ export default function Home() {
      </div>
      <div className="px-12 py-4 bg-[#212121] h-screen flex justify-center items-center">
       <ProjectSection />
+      </div>
+     <div className="px-12 py-4 bg-[#212121] h-screen flex justify-center items-center">
+      <ContactSection />
      </div>
     </main>
   );
