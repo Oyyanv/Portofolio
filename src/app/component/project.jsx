@@ -2,7 +2,7 @@ import React from "react";
 
 export const ProjectSection = () => {
     return(
-        <section id="Project" className="xl:overflow-x-hidden relative min-h-screen flex flex-col xl:items-center xl:justify-center md:items-center md:justify-center items-start justify-center">
+        <section id="Project" className="xl:overflow-x-hidden relative min-h-screen flex flex-col xl:items-center xl:justify-center md:items-center md:justify-center justify-center">
             <div className="md:mb-10 mb-3 text-4xl text-[#F9F9F9] font-Questrial underline font-semibold justify-center flex" data-aos="fade-up"
             data-aos-duration="2000">
         MY PROJECTS
