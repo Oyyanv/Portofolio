@@ -31,7 +31,7 @@ export const ProjectSection = () => {
           className="align-middle select-none font-sans font-bold text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-3 px-6 rounded-lg bg-gray-900 text-white shadow-md shadow-gray-900/10 hover:shadow-lg hover:shadow-gray-900/20 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none"
           type="button"
         >
-          Link
+          No Link
         </button>
       </div>
     </div>
@@ -44,20 +44,20 @@ export const ProjectSection = () => {
           alt="card-image"
         />
       </div>
-      <div className="p-6">
-        <h5 className="block font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
-          Knowledge
+      <div className="p-5">
+        <h5 className="block font-sans text-lg antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
+          Knowledge App
         </h5>
         <p className="block font-sans text-base antialiased font-light leading-relaxed text-inherit">
-          Education App
+          Education App Flutter
         </p>
       </div>
-      <div className="p-6 pt-5">
+      <div className="p-6 pt-8">
         <button
           className="align-middle select-none font-sans font-bold text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-3 px-6 rounded-lg bg-gray-900 text-white shadow-md shadow-gray-900/10 hover:shadow-lg hover:shadow-gray-900/20 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none"
           type="button"
         >
-          Link
+          No Link
         </button>
       </div>
     </div>
@@ -78,12 +78,12 @@ export const ProjectSection = () => {
           SPP Payment
         </p>
       </div>
-      <div className="p-6 pt-5">
+      <div className="p-6 xl:pt-5 pt-12">
         <button
           className="align-middle select-none font-sans font-bold text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-3 px-6 rounded-lg bg-gray-900 text-white shadow-md shadow-gray-900/10 hover:shadow-lg hover:shadow-gray-900/20 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none"
           type="button"
         >
-          Link
+        No Link
         </button>
       </div>
     </div>
@@ -104,13 +104,15 @@ export const ProjectSection = () => {
           Semantic Web
         </p>
       </div>
-      <div className="p-6 pt-5">
+      <div className="p-6 xl:pt-5 pt-8">
+        <a href="https://pky-profile.vercel.app/" target="_blank" rel="noopener noreferrer">
         <button
           className="align-middle select-none font-sans font-bold text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-3 px-6 rounded-lg bg-gray-900 text-white shadow-md shadow-gray-900/10 hover:shadow-lg hover:shadow-gray-900/20 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none"
           type="button"
         >
           Link
         </button>
+        </a>
       </div>
     </div>
   </div>
