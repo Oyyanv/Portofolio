@@ -1,4 +1,5 @@
 import React from "react";
+import Image from 'next/image';
 
 export const ProjectSection = () => {
     return(
@@ -14,8 +15,10 @@ export const ProjectSection = () => {
             data-aos-duration="1900">
       <div className="relative h-18 xl:h-28 mx-4 -mt-6 overflow-hidden text-white shadow-lg bg-clip-border rounded-xl bg-blue-gray-500 shadow-blue-gray-500/40">
         <img
-          src="https://images.unsplash.com/photo-1540553016722-983e48a2cd10?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=800&amp;q=80"
-          alt="card-image"
+          src="images/welkessa.png"
+          alt="Kessaku"
+          height={300}
+          width={300}
         />
       </div>
       <div className="p-6">
@@ -39,9 +42,9 @@ export const ProjectSection = () => {
     <div className="relative flex flex-col mt-12 text-gray-700 bg-white shadow-md bg-clip-border rounded-xl w-52 xl:w-52" data-aos="fade-up"
             data-aos-duration="1800">
       <div className="relative h-18 xl:h-28 mx-4 -mt-6 overflow-hidden text-white shadow-lg bg-clip-border rounded-xl bg-blue-gray-500 shadow-blue-gray-500/40">
-        <img
-          src="https://images.unsplash.com/photo-1540553016722-983e48a2cd10?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=800&amp;q=80"
-          alt="card-image"
+        <img width={250} height={400}
+          src="/images/knowledge.png"
+          alt="Knowledge"
         />
       </div>
       <div className="p-5">
@@ -66,8 +69,8 @@ export const ProjectSection = () => {
             data-aos-duration="1700">
       <div className="relative h-18 xl:h-28 mx-4 -mt-6 overflow-hidden text-white shadow-lg bg-clip-border rounded-xl bg-blue-gray-500 shadow-blue-gray-500/40">
         <img
-          src="https://images.unsplash.com/photo-1540553016722-983e48a2cd10?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=800&amp;q=80"
-          alt="card-image"
+          src="images/infokus.png"
+          alt="infokus"
         />
       </div>
       <div className="p-6">
@@ -93,7 +96,7 @@ export const ProjectSection = () => {
       <div className="relative h-18 xl:h-28 mx-4 -mt-6 overflow-hidden text-white shadow-lg bg-clip-border rounded-xl bg-blue-gray-500 shadow-blue-gray-500/40">
         <img
           src="https://pky-profile.vercel.app/images/geografi.jpg"
-          alt="card-image"
+          alt="Profile PKY"
         />
       </div>
       <div className="p-6">
