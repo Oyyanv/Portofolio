@@ -6,7 +6,7 @@ export const ProjectSection = () => {
         <section id="Project" className="xl:overflow-x-hidden relative min-h-screen flex flex-col xl:items-center xl:justify-center md:items-center md:justify-center justify-center">
             <div className="md:mb-10 mb-3 text-4xl text-[#F9F9F9] font-Questrial underline font-semibold justify-center flex" data-aos="fade-up"
             data-aos-duration="2000">
-        MY PROJECTS
+        PROJECTS
       </div>
       <div className="flex xl:justify-center xl:overflow-x-hidden">
   <div className="flex flex-nowrap justify-start overflow-y-hidden  xl:justify-center xl:flex gap-6 p-10 xl:min-w-screen w-screen overflow-scroll xl:overflow-x-auto">

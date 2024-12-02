@@ -6,7 +6,7 @@ export const SkillSection = () => {
     <section id="Skill" className="relative min-h-screen flex flex-col xl:items-center xl:justify-center md:items-center md:justify-center items-start justify-center">
       {/* Teks Header */}
       <div className="md:mb-10 mb-3 text-4xl text-[#F9F9F9] font-Questrial underline font-semibold">
-        MY SKILL
+        SKILL
       </div>
       
       {/* Grid untuk logo */}
