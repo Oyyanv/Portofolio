@@ -13,7 +13,7 @@ export const ContactSection = () =>{
       <img
           src="images/email.png"
           alt="Email"
-          className="w-20 justify-center flex"
+          className="w-16 justify-center flex"
           />
           <p className="mt-2 xl:text-xl text-xs font-Questrial flex justify-center">
             oyyan527@gmail.com
@@ -26,7 +26,7 @@ export const ContactSection = () =>{
       <img
           src="images/githublogo.png"
           alt="Github"
-          className="w-20 justify-center flex"
+          className="w-16 justify-center flex"
           />
           <p className="mt-2 xl:text-xl font-Questrial flex justify-center">
             <a href="https://github.com/Oyyanv" target="_blank">Oyyanv</a>
@@ -43,7 +43,7 @@ export const ContactSection = () =>{
       <img
           src="images/ig.png"
           alt="Instagram"
-          className="w-20 justify-center flex"
+          className="w-16 justify-center flex"
           />
           <p className="mt-2 xl:text-xl font-Questrial flex justify-center">
             <a href="https://www.instagram.com/oyyn._/" target="_blank">oyyn._</a>
