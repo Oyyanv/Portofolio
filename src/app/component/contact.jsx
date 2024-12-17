@@ -33,7 +33,7 @@ export const ContactSection = () =>{
           </p>        
       </div>
       <div className=" mt-7 text-4xl text-[#F9F9F9] font-Questrial underline font-semibold justify-center flex" data-aos="fade-up"
-            data-aos-duration="3000">
+            data-aos-duration="2500">
             SOCIAL MEDIA
       </div>
       <div className="bg-white mt-2 justify-between flex gap-10 items-center p-5 
