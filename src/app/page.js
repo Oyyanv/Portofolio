@@ -22,7 +22,7 @@ export default function Home() {
      <div className="px-12 py-4 bg-[#212121] min-h-screen flex justify-center items-center">
       <ProjectSection />
       </div>
-     <div className="px-12 py-4 bg-[#212121] h-screen flex justify-center items-center">
+     <div className="px-12 py-4 bg-[#212121] h-screen flex justify-center items-center overflow-x-hidden">
       <ContactSection />
      </div>
     </main>
