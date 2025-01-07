@@ -123,7 +123,7 @@ export const ProjectSection = () => {
       <div className="relative h-18 xl:h-28 mx-4 -mt-6 overflow-hidden text-white shadow-lg bg-clip-border rounded-xl bg-blue-gray-500 shadow-blue-gray-500/40">
         <img
           src="images/xlsxtokml.png"
-          alt="Excel To KML" height={1920} width={1080}
+          alt="Excel To KML"
         />
       </div>
       <div className="p-6">
