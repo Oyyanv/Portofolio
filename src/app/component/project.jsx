@@ -122,7 +122,7 @@ export const ProjectSection = () => {
             data-aos-duration="1600">
       <div className="relative h-18 xl:h-28 mx-4 -mt-6 overflow-hidden text-white shadow-lg bg-clip-border rounded-xl bg-blue-gray-500 shadow-blue-gray-500/40">
         <img
-          src="images/exceltokml.png"
+          src="images/xlsxtokml.png"
           alt="Excel To KML"
         />
       </div>
